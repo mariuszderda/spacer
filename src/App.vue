@@ -1,7 +1,6 @@
 <template>
   <div class="app">
     <div class="nav">
-      <router-link to="/">Spacer</router-link>
     </div>
     <router-view/>
   </div>
@@ -10,7 +9,7 @@
 <script>
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap');
 
 * {
@@ -18,6 +17,8 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
   font-family: Montserrat, sans-serif;
 }
 </style>
